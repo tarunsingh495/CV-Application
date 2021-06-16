@@ -10,9 +10,8 @@ constructor(props){
     Email:"",
     Contact_No: " ",
     State:""},
-    dataFinal:[],
-    
-  }
+    dataFinal:[]
+    }
   //const{name,Email,Contact_No,State}=this.state.data;
 }
 nameInputHandler=(event)=>{
@@ -37,9 +36,8 @@ stateInputHandler=(event)=>{
 }
 formSubmitHandler=(event)=>{
   this.setState({
-    dataFinal:this.state.dataFinal.concat(this.state.data.name),
-    editMode:false
-  })
+    dataFinal:this.state.dataFinal.concat(this.state.data.name,this.state.data.email,this.state.data.contact_no,this.state.data.state)
+    })
 }
 
 
@@ -57,6 +55,7 @@ render(){
       <button className="submitButton" onClick={this.formSubmitHandler}>Submit</button>
       
       <PersonalInfo person_data = {this.state.dataFinal} />
+     
     </div>
 
   );
