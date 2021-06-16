@@ -1,0 +1,33 @@
+.form-container{
+    background-color: #8900f2;
+    color:white;
+    border:2px black solid;
+    border-radius: 2%;
+    padding: 4%;
+    margin-left: 20vw;
+    margin-top:5vh;
+    margin-right: 20vw;
+    height: 50vh;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputField{
+    border-color: black;
+	border-width: 0px 0px 1px 0px;
+    background: transparent;
+    color: black;
+	letter-spacing: .3em;
+    outline: none;
+}
+.submitButton{
+    cursor: pointer;
+	background: transparent;
+	border-radius: 5px;
+	padding: 3px;
+	width: 5vw;
+	height: 5vh;
+	border: 1px solid black;
+    margin-left: 40%;
+}
