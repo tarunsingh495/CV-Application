@@ -1,3 +1,6 @@
+body{
+    background-color: #282c34;
+}
 .form-container{
     background-color: #8900f2;
     color:white;
@@ -23,11 +26,13 @@
 }
 .submitButton{
     cursor: pointer;
-	background: transparent;
+	background-color: #8900f2;
 	border-radius: 5px;
 	padding: 3px;
 	width: 5vw;
 	height: 5vh;
-	border: 1px solid black;
+	border: 1px solid blacwhite;
     margin-left: 40%;
+    margin-top: 3vh;
+    outline: none;
 }
